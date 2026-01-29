@@ -1,0 +1,34 @@
+html{
+    background-color: lightyellow;
+    font-size:25px;
+}
+p {
+    background-color: lightpink;
+    /* border is a shorthand property for border-width, border-style, border-color also to make something a coment put curser on like and do command forward dash*/
+    border:5px dotted rgb(244, 66, 229);
+    text-align: right;
+    /* 1 value: all sides
+    2 values: 1st value= top/ bottum, second value=left/right
+    4 values: 1st value= top 2nd value= right 3rd= bottum 4th= left */
+    padding: 10px 50px 70px 90px;
+    margin: 50px 50px 50px 90px;
+}
+
+ h1 {
+       color: #ff00a6;
+       border:5px dotted pink; 
+        text-align: center;
+        padding:20px
+    }
+
+    .special {
+        background-color: lightblue;
+        font-size 50px;
+        border-radius: 100%;
+
+    }
+    
+        .center-text {
+            text-align: center;
+            padding:20px;
+    }
