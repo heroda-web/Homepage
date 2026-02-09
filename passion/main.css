@@ -1,0 +1,30 @@
+html{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(255, 204, 246);
+    font-size:25px;
+}
+ h1 {
+       color: #cf0a8a;
+       border:5px dotted #594347; 
+        text-align: center;
+        padding:30px
+    }
+h2{
+    color: #594347;
+    font-size:25px;
+    text-align: center;
+}
+h3{
+    color: #594347;
+    font-size:25px;
+}
+h4{
+    color: #cf0a8a;
+    font-size:20px;
+}
+p{
+    color: #594347;
+    font-size: 20px;
+    background-color: #e3a8ff;
+    border:5px dotted #594347; 
+}
