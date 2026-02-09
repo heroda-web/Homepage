@@ -3,8 +3,11 @@ html{
     background-color: rgb(255, 204, 246);
     font-size:25px;
 }
+
  h1 {
-       color: #cf0a8a;
+  font-family: "Monsieur La Doulaise", cursive;
+  font-style: normal;   
+    color: #cf0a8a;
        border:5px dotted #594347; 
         text-align: center;
         padding:30px
@@ -25,6 +28,5 @@ h4{
 p{
     color: #594347;
     font-size: 20px;
-    background-color: #e3a8ff;
     border:5px dotted #594347; 
 }
