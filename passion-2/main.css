@@ -1,17 +1,20 @@
 html{
     font-family: Helvetica, sans-serif;
-    background-color: rgb(255, 204, 246);
+     background-image: url("background.jpg");
+ background-color: #cccccc;
     font-size:25px;
 }
 
  h1 {
-  font-family: "Monsieur La Doulaise", cursive;
-  font-style: normal;   
-    color: #cf0a8a;
-       border:5px dotted #594347; 
+  font-family: "parfumerie-script", sans-serif;
+font-weight: 400;
+  font-style: normal; 
+  font-size:100px;  
+    color: #e83cc6;
+       border:5px solid #594347; 
         text-align: center;
         margin: 15px; 
-        padding:30px
+        padding: 10px;
     }
 h2{
     color: #594347;
@@ -20,12 +23,12 @@ h2{
     margin: 15px; 
 }
 h3{
-    color: #594347;
+    color: #e83cc6;
     font-size:25px;
     margin: 15px; 
 }
 h4{
-    color: #cf0a8a;
+    color: #594347;
     font-size:20px;
     margin: 15px; 
 }
@@ -34,5 +37,5 @@ p{
     font-size: 20px;
     margin: 15px; 
     padding: 5px;
-    border:5px dotted #594347;
+    border:5px solid #594347;
 }
