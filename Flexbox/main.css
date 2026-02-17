@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.block{
+    background-color: violet;
+    padding: 10px;
+    margin:10px;
+}
+.inline{
+    background-color: deeppink;
+    width: 90px;
+    height: 100px;
+    margin: 30px;
+    display:inline-block;
+}
+.container{
+    background-color:rgb(126, 120, 188);
+    padding:20px;
+    display: flex;
+    height:600px;
+    /* flex direction will determine the main-axis:
+    row=horizontal main axis
+    column= vertical main axis */
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content aligns along the main access */
+    justify-content: space-between;
+    
+/* align-items alight items along the cross-axis, and is used for non-wrapping flexboxes */
+    align-items:center;
+
+    /* align-content aligns content on the cross-axis and is used for multi-line/warpping flexboxes */
+    align-content:flex-end;
+    gap:10px
+}
+.item{
+    background-color:lightblue;
+    padding:10px;
+    border:1px solid;
+    width: 100px;
+}
+.special{
+    background-color: cornsilk;
+    order: -1;
+}
