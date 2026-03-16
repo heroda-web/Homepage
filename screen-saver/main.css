@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+margin: 0;
+}
+.container{ 
+background-color: rgb(239, 156, 255);
+    height:100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+}
+h1{
+    position: absolute;
+    top:0px;
+    font-family: "spignarian-script", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size:100px;
+    color: #ffffff;
+    text-align: center;
+}
+.cake{
+    bottom: -30px;
+    position:absolute; 
+    justify-items: center;
+    
+}
+
+.animation{
+    top: 140px;
+    left: 645px;
+    position: absolute;
+
+   animation: spin 2s infinite linear;
+}
+
+
+.flame1 {
+  width: 45px;
+  height: 75px;
+  background: orange;
+  border-radius: 50%;
+  position: absolute;
+  top: 190px;
+  left: 650px;
+
+  animation: flicker 0.3s infinite alternate;
+  transition: opacity 0.4s ease;
+}
+.flame1:hover {
+  animation: none;
+  opacity: 0;
+}
+  .flame2 {
+  width: 45px;
+  height: 75px;
+  background: orange;
+  border-radius: 50%;
+  position: absolute;
+  top: 190px;
+  right: 680px;
+
+
+  animation: flicker 1s infinite alternate;
+  transition: opacity 0.4s ease;
+}
+.flame2:hover {
+  animation: none;
+  opacity: 0;
+}
+@keyframes flicker {
+  0% {
+    transform: scale(1) rotate(-2deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.1) rotate(2deg);
+    opacity: 0.8;
+  }
+}
