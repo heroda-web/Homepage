@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(217, 241, 249);
+    transition: background .3s;
+}
+.dark {
+    background-color: rgb(119, 160, 174) ;
+}
+.menu{
+    background-color: #ffc5f0;
+    font-size: 150%;
+    height:100vh;
+    width: 300px;
+    right: -300px;
+    top: 0;
+    position: fixed;
+    opacity: 0;
+   
+
+    padding: 20px;
+    text-align: center;
+
+    transition: right .3s, opacity .3s .1s, background-color .3s;
+}
+.active {
+  right: 0;
+  opacity: 1;
+}
+.gear{
+    background-color:#ffc5f0;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    
+    transition: rotate .3s, background-color .3s;
+}
+
+.spin{
+    rotate: 180deg;
+}
+.glow{
+    background-color:#ffff;
+}
