@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.buttons{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.container{
+    background-color: rgb(252, 188, 232);
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container.dark{
+    background-color: rgb(252, 150, 219);}
+
+.box{
+    background-color:rgb(252, 161, 225);
+    width: 100px;
+    height: 100px;
+    animation: spin 4s infinite linear;
+    animation-play-state: paused;
+}
+.box.dark{
+    background-color:rgb(171, 51, 135)
+}
+
+.box.spin{
+    animation-play-state: running;
+
+}
+@keyframes spin {
+    0%{
+rotate:0;
+    }
+    100%{
+rotate:360deg;
+    }
+}
+.fairy{
+width:200px;
+position:fixed;
+bottom:20px;
+right: 10px;
+opacity: 0;
+}
+.fairy.show{
+    opacity: 1;
+}
+.draggable{
+    cursor:grab;
+}
