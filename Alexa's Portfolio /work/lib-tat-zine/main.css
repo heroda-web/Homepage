@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+html{
+    /* background-image: url("background-ocean.png");
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+    background-color: 
+    rgb(247, 233, 255);
+}
+.header {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 20px; 
+    padding: 10px;
+    font-family: "letter-gothic-std", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+a:link { color:black; }      
+a:visited { color: #ff57eb; }   
+a:hover { color: #490565; }
+
+h1{
+font-family: "gratitude-smooth-script-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+position: relative;
+text-align: center;
+font-size: 70px;
+left: -120px;
+/* top: -50px; */
+margin: 0;
+color:#000000;
+}
+
+.sticky{
+     background-color: rgb(241, 217, 255);
+    position: fixed;
+    height: 100vh;
+    width: 40vh;
+    bottom: 0px;
+    left: 0px;
+    margin: 0;
+    border: rgb(49, 47, 95) solid 2px;
+}
+h4{
+font-family: "letter-gothic-std", monospace;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  margin:20px;
+  /* top:110px; */
+
+}
+h5{
+font-family: "letter-gothic-std", monospace;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  justify-content: left;
+
+}
+
+
+.documentation {
+    position: relative;   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+     margin-left: 35vw;          
+    width: 70vw;                
+    display: flex;
+    justify-content: center; 
+
+}
+.mySlides {
+    width: 100%;
+    height: 900px;       
+    object-fit: cover;    
+    display: none;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(254, 77, 240, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* LEFT arrow */
+.prev {
+    left: 20px;
+}
+
+/* RIGHT arrow */
+.next {
+    right: 20px;
+}
+
+.documentation img{
+    /* border: rgb(49, 47, 95) solid 2px;  */
+    padding: 10px;
+}
+
+.bottom{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-left: 35vw; 
+}
+
+.bottom img {
+    padding: 10px;
+}

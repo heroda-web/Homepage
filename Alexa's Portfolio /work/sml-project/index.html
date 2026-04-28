@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>-</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ukw6xgo.css">
+    </head>
+    <body>
+        <div class="header"> 
+        <h1>SML Project</h1>   
+        <a href="../../index.html">Home</a>
+        <a href="../index.html">Work</a>
+        <a href="../../play/index.html">Play</a>
+        <a href="../../about/index.html">About</a>
+    </div>
+     <div class="container">
+        <div class="sticky">
+            <h3>Small:</h3>
+            <h4>A series of postcards inspired by songs by The Decemberists . I selected specific tracks and translated their narratives into letterforms, creating visual “letters” shaped by sound and story.
+
+            </h4>
+            <h3>Medium:</h3>
+            <h4>A marine radar mapping landmarks from my own life. A heart sits at the center, with each landmark positioned closer or farther away depending on its emotional significance to me.
+
+            </h4>
+            <h3>Large:</h3>
+            <h4>A sandbox installation filled with bottles containing letters from friends and family. Each person was given a prompt and asked to write a letter in response. I coffee-dyed the paper, sealed the letters in bottles, and embedded them in the sand.
+
+            </h4>
+        </div>
+        <div class="documentation">
+        <img src="cut-out-pool.png" alt="photo booth photo" width="900">
+        <img src="full-thing.JPG" alt="photo booth photo" width="900">
+        <img src="small-postcards.png" alt="photo booth photo" width="900">
+        <img src="veiw-vid.JPG" alt="photo booth photo" width="900">
+        <img src="open-letters.JPG" alt="photo booth photo" width="900">
+        <img src="pour-sand.jpg" alt="photo booth photo" width="900">
+       
+        <h5>
+            Tap or click any video below to watch:
+        </h5>
+        
+       <video class="click-video" width="900">
+    <source src="Herod,Alexa_SML.mp4" type="video/mp4">
+</video>
+
+<script>
+const videos = document.querySelectorAll(".click-video");
+
+videos.forEach(video => {
+    video.addEventListener("click", () => {
+        if (video.paused) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    });
+});
+</script>
+
+
+        </div>
+     </div>
+        <p></p>
+    </body>
+</html>

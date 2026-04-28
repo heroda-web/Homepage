@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Liberty Tattoo Zine </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ukw6xgo.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ukw6xgo.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ukw6xgo.css">
+    </head>
+    <body>
+        <div class="header"> 
+        <h1>Liberty Tattoo Zine</h1>   
+        <a href="../../index.html">Home</a>
+        <a href="../index.html">Work</a>
+        <a href="../../play/index.html">Play</a>
+        <a href="../../about/index.html">About</a>
+    </div>
+     <div class="container">
+        <div class="sticky">
+            <h4>In this project, I designed a zine based on a personal “collection” developed earlier in the semester, which was later distributed in the library. Throughout the term, we were asked to select a topic to collect; I chose tattoos. I gathered over 200 tattoo images from people I know, individuals I encountered in public, and online sources.
+
+Using this collection, I developed the concept and visual direction for the zine, incorporating the imagery throughout the design. The zine is inspired by the tattoo studio I visit in Atlanta and is designed to visually reflect the atmosphere of that space. The narrative places the reader as the main character, visiting the studio to receive a mystery tattoo from a gumball machine. After receiving the tattoo, the final page provides aftercare instructions.
+
+There are four different versions of the zine, and the mystery tattoo the reader receives depends on which edition they get.
+</h4>
+        </div>
+        <div class="documentation">
+        <img class="mySlides" src="slide-1.png">
+        <img class="mySlides" src="slide-2.png">
+        <img class="mySlides" src="slide-3.png">
+        <img class="mySlides" src="slide-4.png">
+        <img class="mySlides" src="slide-5.png">
+        <img class="mySlides" src="slide-6.png">
+        <img class="mySlides" src="slide-7.png">
+        <img class="mySlides" src="slide-8.png">
+
+        <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="next" onclick="plusDivs(1)">&#10095;</button>
+        
+        </div>
+        <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+     </div>
+     <div class="bottom">
+     <img src="looking-at-zine.JPG" alt="photo booth photo" width="700">
+     <img src="pile-o-zine.JPG" alt="photo booth photo" width="700">
+     <img src="take-1.JPG" alt="photo booth photo" width="700">
+     </div>
+    </body>
+</html>

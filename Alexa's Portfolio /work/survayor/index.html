@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Survayor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ukw6xgo.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ukw6xgo.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ukw6xgo.css">
+    </head>
+    <body>
+         <div class="header"> 
+        <h1>The Survayor</h1>   
+        <a href="../../index.html">Home</a>
+        <a href="../index.html">Work</a>
+        <a href="../../play/index.html">Play</a>
+        <a href="../../about/index.html">About</a>
+    </div>
+     <div class="container">
+        <div class="sticky">
+            <h4>
+For this project, I created a guided narrative based on an interview with my dad, who served as a sailor for NOAA and is someone I’ve always looked up to. I transformed the stories he shared into a structured guide, incorporating the photos he took while at sea and the artifacts he has kept from his service. This project allowed me not only to document his experiences, but also to celebrate the impact his journey has had on me. The final guide blends personal history, visual storytelling, and meaningful reflection.
+
+</h4>
+        </div>
+        <div class="documentation">
+        <img src="Screenshot 2026-04-25 at 10.03.45 PM.png" alt="photo booth photo" width="1000">
+        <img src="Screenshot 2026-04-23 at 7.52.31 PM.png" alt="photo booth photo" width="1000">
+       
+        <h5>
+            Tap or click any video below to watch:
+        </h5>
+       <video class="click-video" width="1000">
+    <source src="IMG_7903.mp4" type="video/mp4">
+</video>
+ <video class="click-video" width="1000">
+        <source src="IMG_7905.mp4" type="video/mp4">
+    </video>
+
+<script>
+const videos = document.querySelectorAll(".click-video");
+
+videos.forEach(video => {
+    video.addEventListener("click", () => {
+        if (video.paused) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    });
+});
+</script>
+
+
+        </div>
+     </div>
+        <p></p>
+    </body>
+</html>
