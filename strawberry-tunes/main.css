@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-color: #F2E7DC;
+    
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.header{
+background-color: #F2E7DC;
+align-items: center;
+justify-content: center;
+text-align: center;
+border: solid 1px;
+}
+.title{
+    background-color: #6F062E;
+    padding: 0px;
+    margin: 0px;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* z-index: -2; */
+}
+.bgimg{
+    width: 1495px;
+  /* height: 1px;  */
+  overflow-x: hidden;
+  z-index: -1;
+}
+.bgimg img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+.name{
+    top:-1080px ;
+    position: relative;
+}
+.spin {
+  background-color: #F2E7DC;
+  height: 760px;
+  width:1495px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.spinny:hover {
+  display: inline-block;
+  animation: spin 4s linear infinite;
+  transform-origin: center;
+  justify-content:left ;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1{
+font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size:140px;
+text-align: center;
+position:relative;
+right: -100px;
+color: #1B0123;
+}
+h2{
+font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size:140px;
+text-align: center;
+position:relative;
+color: #1B0123;
+margin: 0;
+}
+.sleeves{
+    background-color: #6F062E;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction:row;
+   justify-content:center;
+}
+.album1 img{
+  flex-direction: row;
+  padding:10px;
+}
+.album2 img{
+    flex-direction: row;
+  padding:10px;
+}
+.album3 img{
+  flex-direction: row;
+  padding:10px;
+
+}
+.record{
+    background-color: #F2E7DC;
+    padding: 10px;
+    margin: 0px;
+     display: flex;
+    flex-direction:row;
+   justify-content:center;
+}
+.album4 img:hover{
+  flex-direction: row;
+  padding:10px;
+  display: inline-block;
+  animation: spin 4s linear infinite;
+  transform-origin: center;
+}
+.album5 img:hover{
+    flex-direction: row;
+  padding:10px;
+  display: inline-block;
+  animation: spin 4s linear infinite;
+  transform-origin: center;
+}
+.album6 img:hover{
+  flex-direction: row;
+  padding:10px;
+  display: inline-block;
+  animation: spin 4s linear infinite;
+  transform-origin: center;
+
+}
+.calender1{
+     background-color:#F2E7DC;
+    margin: 0px;
+    border: solid 1px;
+}
+.chart{
+  background-color:#6F062E;
+    padding: 10px;
+    margin: 0px;
+      display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chart button {
+  background-color: #1B0123; /* dark purple */
+  color: #F2E7DC;           /* cream text */
+  border: 2px solid #F2E7DC;
+  padding: 12px 20px;
+  margin: 10px;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+.chart button:hover {
+  background-color: #F2E7DC;
+  color: #1B0123;
+}
+#calendar img {
+  width: 100%;
+  max-width: 600px;
+}
+.merch{
+     background-color:#F2E7DC;
+    /* padding: 10px; */
+    margin: 0px;
+    border: solid 1px;
+}
+.items{
+  background-color:#F2E7DC;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+  flex-direction: row;
+}
+.img-wrap {
+  position: relative;
+  width: 460px;
+}
+
+.img-wrap img {
+  width: 100%;
+  display: block;
+}
+
+.img-wrap .hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.img-wrap:hover .hover {
+  display: block;
+}
+
+.img-wrap:hover .normal {
+  display: none;
+}
